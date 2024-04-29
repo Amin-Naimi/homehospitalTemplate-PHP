@@ -1,0 +1,205 @@
+*{padding: 0px; margin: 0px;}
+.TC{
+    /* opacity: 0.8;       [opacity with elements]*/
+    background: rgba(22, 22, 22, 0.85);/*[opacity without elements]*/
+}
+#table_barr{
+    min-height: 2px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#sign-out{
+    margin: 0px;
+    padding: 0px;
+}
+/*||||||||||||||||||||||||||||||||||||||||GENARAL (BODY)||||||||||||||||||||||||||||*/
+body {
+margin:0px;
+background-image: url(img/bag.png);
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+background-position: top;
+}
+/*=============================================LOGO==============================*/
+.logo{
+    background-color: #222;
+    width: 3%;
+    height: auto;
+}
+.logo >img{
+ 
+    width: 4vw;
+    height: auto;
+}
+
+/*========================================FONT OF THE TITLE==========================*/
+#Home_Hospital_text{
+    padding: 0;
+    margin: 0;
+	border: 0.2vw solid rgba(99,99,99,.9);
+    border-radius: 10px;
+    border-left: none;
+    border-right: none;
+    font-family: georgia;  /*favorit options:[fantasy & cursive]*/
+    color: #54BDF1;
+  	font-size: 2.7vw;
+}
+/*=========================Movable sign-in to Patient===============================*/
+#movable-sign-in{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    visibility: hidden;
+    font-size: 1.1vw;
+    z-index: 1;
+    position: fixed;
+    min-width: 30vw;
+    min-height: 20vw;
+    transform: translate(44vw ,23%);
+    background-color: rgba(22, 22, 22, 0.8);
+}
+#user_name{
+    color: lightblue;
+    font-family: cursive;
+    font-size: 1.3vw;
+    border: none;
+    border-bottom: 2px solid blue;
+    background: rgba(22, 22, 22, 0.5);
+    width: 80%;
+    height: 3%;
+}
+#password{
+    color: lightblue;
+    font-family: cursive;
+    font-size: 1.3vw;
+    border: none;
+    border-bottom: 2px solid blue;
+    background: rgba(22, 22, 22, 0.5);
+    width: 80%;
+    height: 3%;
+}
+#link_of_creat_na_account{
+    color: lightblue;
+}
+#action{
+    border-style: ridge;
+    color: lightblue;
+    height: 2.1vw;
+    width: 6vw;
+    text-decoration: none;
+    background-color: rgba(22, 22, 22, 0.9);
+    font-size: 1.3vw;
+}
+#action:hover{
+    border-style: ridge;
+    height: 2.2vw;
+    width: 6.1vw;
+    text-decoration: none;
+    background-color: rgba(88, 88, 88, 0.9);
+    font-size: 1.3vw;
+}
+/*=========================Movable sign-in to Doctor===============================*/
+#movable-sign-in-doctor{
+    visibility: hidden;
+    font-size: 1.1vw;
+    z-index: 1;
+    position: fixed;
+    min-width: 30vw;
+    min-height: 20vw;
+    transform: translate(44vw ,23%);
+    background-color: rgba(22, 22, 22, 0.8);
+}
+#user_name-doctor{
+    color: lightblue;
+    font-family: cursive;
+    font-size: 1.3vw;
+    border: none;
+    border-bottom: 2px solid blue;
+    background: rgba(22, 22, 22, 0.5);
+    width: 80%;
+    height: 3%;
+}
+#password-doctor{
+    color: lightblue;
+    font-family: cursive;
+    font-size: 1.3vw;
+    border: none;
+    border-bottom: 2px solid blue;
+    background: rgba(22, 22, 22, 0.5);
+    width: 80%;
+    height: 3%;
+}
+#link_of_creat_na_account-doctor{
+    color: lightblue;
+}
+#action-doctor{
+    border-style: ridge;
+    color: lightblue;
+    height: 2.1vw;
+    width: 6vw;
+    text-decoration: none;
+    background-color: rgba(22, 22, 22, 0.9);
+    font-size: 1.3vw;
+}
+#action-doctor:hover{
+    border-style: ridge;
+    height: 2.2vw;
+    width: 6.1vw;
+    text-decoration: none;
+    background-color: rgba(88, 88, 88, 0.9);
+    font-size: 1.3vw;
+}
+/*=========================Movable sign-in to Admin===============================*/
+#movable-sign-in-Admin{
+    visibility: hidden;
+    font-size: 1.1vw;
+    z-index: 1;
+    position: fixed;
+    min-width: 30vw;
+    min-height: 20vw;
+    transform: translate(44vw ,23%);
+    background-color: rgba(22, 22, 22, 0.8);
+}
+#user_name-Admin{
+    color: lightblue;
+    font-family: cursive;
+    font-size: 1.3vw;
+    border: none;
+    border-bottom: 2px solid blue;
+    background: rgba(22, 22, 22, 0.5);
+    width: 80%;
+    height: 3%;
+}
+#password-Admin{
+    color: lightblue;
+    font-family: cursive;
+    font-size: 1.3vw;
+    border: none;
+    border-bottom: 2px solid blue;
+    background: rgba(22, 22, 22, 0.5);
+    width: 80%;
+    height: 3%;
+}
+#link_of_creat_na_account-Admin{
+    color: lightblue;
+}
+#action-Admin{
+    border-style: ridge;
+    color: lightblue;
+    height: 2.1vw;
+    width: 6vw;
+    text-decoration: none;
+    background-color: rgba(22, 22, 22, 0.9);
+    font-size: 1.3vw;
+}
+#action-Admin:hover{
+    border-style: ridge;
+    height: 2.2vw;
+    width: 6.1vw;
+    text-decoration: none;
+    background-color: rgba(88, 88, 88, 0.9);
+    font-size: 1.3vw;
+}

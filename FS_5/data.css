@@ -1,0 +1,31 @@
+#month_get{
+	position: absolute;
+	transform: translate(1vw , 2vw);
+	z-index: 1;
+}
+.monclass{
+	   height: 1.5vw;
+    width: 1.5vw;
+}
+#day_get{
+	width: 40%;
+	position: absolute;
+	transform: translate(21vw , 2vw);
+}
+#houer_get{
+	position: absolute;
+	transform: translate(62vw , 2vw);
+}
+.ohuer{
+	height: 1.5vw;
+    width: 1.5vw;
+}
+.mont{
+    height: 1.5vw;
+    width: 1.5vw;
+}
+.mont_style_radio{
+	font-family: cursive;
+	font-size: 2vw;
+	color: lightblue;
+}

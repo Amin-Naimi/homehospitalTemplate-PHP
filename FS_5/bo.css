@@ -1,0 +1,26 @@
+
+/*-------------------*/
+#fooder{
+	font-family: cursive;
+	color: #999;
+	font-size:1vw;
+}
+/*===================================*/
+#search{
+	border-radius: .4vw;
+	width: 39vw;
+	height: 4%;
+	color: lightblue;
+    font-family: cursive;
+    font-size: 2vw;
+    border-top: 2px solid rgba(84,189,241,.6);
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: 2px solid rgba(84,189,241,.6);
+    background: rgba(0, 0, 00, 0);
+    background-image: url('img/se.png');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:3vw; 
+
+}

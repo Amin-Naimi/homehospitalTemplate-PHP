@@ -1,0 +1,40 @@
+body{
+	background-image: url(img/my-pro.png);
+	background-color: rgba(22, 22, 22, 0.7);
+	margin:0px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+	background-position: top;
+}
+#summiii{	
+	transition: .3s;
+	position: absolute;
+	transform: translate(45vw , 25vw);
+	padding: 0;
+	margin: 0;
+	font-size: 2vw;
+	border-style: none;
+	height: 3vw;
+	width: 10vw;
+	white-space: nowrap;
+	color: lightblue;
+	background-color: rgba(99, 99, 99, 0.9);
+}
+#summiii:hover{
+	height: 3.2vw;
+	width: 10.2vw;
+	background-color: rgba(99, 99, 99, 0.6);
+}
+
+#demo{
+	transform: translateY(35vw);
+	color: lightblue;
+	font-size: 2vw;
+	font-family: cursive;
+}
+#today{
+position: absolute;
+transform: translateY(10vw);
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxTake_this_tame_for_mexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/

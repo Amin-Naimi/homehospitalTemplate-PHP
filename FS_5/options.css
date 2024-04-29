@@ -1,0 +1,122 @@
+#table {
+    position: absolute;
+    /*transform: translateY(30vh);*/
+    transform: translateY(60%);
+    width: 100%;
+    /*bottom: 40vh;*/
+} 
+#slide_holder{
+    height: 34.8vw;
+}
+#fooder{
+    height: 7vw;
+    background: rgba(22, 22, 22, 0.95);
+}
+/* ***********1************ */
+.lowe_barr{
+	padding: 0;
+	margin: 0;
+	font-family: "droid serif";
+	font-size: 1.5vw;
+	border-style: none;
+	transition: 0.4s;
+	height: 3.4vw;
+	width: 100%;
+	color: lightblue;
+	background-color: rgba(99, 99, 99, 0.4);
+}
+.lowe_barr:hover{
+	align-items: left;
+	color: lightblue;
+	font-size: 2vw;
+	background-color: #888;
+}
+/*kkkkkkkkkkkkkkkkkkkkkkkkkkkkk--PATIENTS--kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk*/
+#dive_take_a_time{visibility: hidden;}
+#health_advice{visibility: hidden;}
+.books{position: absolute; width: 17vw;}
+#arrow_book:hover{color: #999; font-size: 4vw;}
+/*kkkkkkkkkkkkkkkkkkkkkkkkkkkkk--PATIENTS--kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk*/
+
+.h3_holder{
+	width: 13vw;
+	height: 1vw;
+}
+
+.patients_s{
+	position: absolute;
+	border-style: solid;
+	border-color: rgba(99,99,99,.6);
+	border-radius: 1.6vw;
+}
+.patients_s:hover{
+	transition: .3s;
+	border-color: #fff;
+	background-color: rgba(88,88,88,.9);
+}
+
+.patients_s:hover .image_pat_s{
+	width: 5.5vw;
+	height: 5.5vw;
+}
+.image_pat_s{
+	width: 5vw;
+	height: 5vw;
+}
+#kid{position: absolute; transform: translate(3vw, 3vw);}
+#bone{position: absolute; transform: translate(10vw, 3vw);}
+#breath{position: absolute; transform: translate(17vw, 3vw);}
+#ear{position: absolute; transform: translate(24vw, 3vw);}
+#eye{position: absolute; transform: translate(3vw, 10vw);}
+#tooth{position: absolute; transform: translate(10vw, 10vw);}
+#k{position: absolute; transform: translate(17vw, 10vw);}
+#l{position: absolute; transform: translate(24vw, 10vw);}
+
+#doctors_querry{
+	color: lightblue;
+	font-size: 1.2vw;
+	position: absolute;
+	transform: translate(65vw,3vw);
+}
+#result_query_docts{ border-style: solid; border-radius: 12%; border-width: .1vw;}
+
+.chouse_doc{ 
+	border-style: none;
+	width: auto;
+	border-radius: 10%;
+	background-color: rgba(39,170,200,.8); 
+}
+.chouse_doc:hover{ 
+	background-color: rgba(99,99,99,.8); 
+}
+
+#go{
+	position: absolute;
+	transform: translate(70vw ,20vw);
+	width: 5vw;
+	height: 5vw;
+	border-radius: 50%;
+	background-color: rgba(88,88,88,.6);
+}
+#go:hover{
+	transition: .2s;
+	background-color: rgba(44,44,44,.6);
+}
+/*kkkkkkkkkkkkkkkkkkkkkkkkkkkkk--DOCTORS--kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk*/
+
+.holder{
+	width: 15vw;
+}
+/*7777777777777777777777777777777777777777777777777777*/
+#ABOUT{
+	visibility: hidden;
+}
+#CONNECT-us-us{
+	visibility: hidden;
+	font-size: 1.7vw;
+	color: #999;
+}
+.img_sercl{ border-radius: 50%; width: 6vw; }
+#reklam{
+	visibility: visible;
+}

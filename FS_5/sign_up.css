@@ -1,0 +1,97 @@
+body{
+	color: lightblue;
+	background: rgba(22, 22, 22, 0.7);
+	background-image: url(img/sing-up1.jpg);
+	margin:0px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+	background-position: top;
+
+}
+.search_up_class{
+	border-radius: .5vw;
+	width: 15vw;
+	height: 2.3vw;
+	color: lightblue;
+    font-family: cursive;
+    font-size: 1.5vw;
+    border-top: .3vw solid #54BDF1;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: .3vw solid #54BDF1;
+    background: rgba(22, 22, 22, 0.7);
+    
+    position: absolute;
+    transform: translate(4vw , 4vw);
+}
+
+#nike-name{
+	transform: translate(22vw , 4vw);
+}
+#city{
+	transform: translate(4vw , 8vw);
+}
+#birthday{
+		transform: translate(22vw , 8vw);
+}
+#email{
+	width: 33vw;
+	transform: translate(4vw , 12vw);
+}
+#phone{
+	width: 33vw;
+	transform: translate(4vw , 16vw);
+}
+#id{
+	width: 33vw;
+	transform: translate(4vw , 20vw);
+}
+
+#p_job{
+		transform: translate(4vw , 24vw);
+}
+
+
+.finish_sign_up{
+	position: absolute;
+	transform: translate(30vw ,42vw);
+	padding: 0;
+	margin: 0;
+	font-family: "droid serif";
+	font-size: 2vw;
+	border-style: none;
+	height: 3vw;
+	width: 10vw;
+	white-space: nowrap;
+	color: lightblue;
+	background-color: rgba(99, 99, 99, 0.6);
+}
+.finish_sign_up:hover{
+	transition: .5s;
+	background-color: rgba(99, 99, 99, 0.9);
+}
+#cansel_up{
+	position: absolute;
+	transform: translate(15vw ,42vw);
+}
+#text{
+	position: absolute;
+	transform: translate(3.3vw ,36vw);
+	width: 40vw;
+	height: auto;
+	color: lightblue;
+    font-family: cursive;
+    font-size: 1.5vw;
+	background-color: rgba(99, 99, 99, 0.5);
+	border-style: ridge;
+	border-width: .2vw;
+	border-color: #6F5ACC;
+}
+.paragraf{
+	position: absolute;
+	transform: translate(3vw ,50vw);
+	size: 12vw;
+	color: lightblue;
+    font-family: cursive;
+}
